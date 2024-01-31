@@ -1,0 +1,61 @@
+Healthcare Domain Testing is a process to test healthcare application for various factors like standards, safety, compliance, cross dependency with other entities, etc. The purpose of healthcare domain testing is to ensure quality, reliability, performance, safety and efficiency of the Healthcare application.
+Basic knowledge of Health Care Domain
+The entire health care system is weaved with each other by the single body that is hospital or provider (doctor).
+
+While the other entities include-
+
+Insurance company: Medicare, Medicaid, BCBS, etc.
+Patient/Consumers: Patient Enrolled
+Regulatory Authority: HIPAA, OASIS assessment, HCFA 1500 and UB92, etc.
+Health-care and Life-Science solution Vendors
+Basic Terminology of Health Care System
+
+Provider: A health care professional (doctor), medical group, clinic, lab, hospital, etc. licensed by health care services
+Claim: A request to your health insurance company to pay a bill for health care service
+Broker: An insurance professional, who negotiates, procures insurance on behalf of insured or prospective insured
+Finance: Insurance bodies that pay for medical expenses, it could be government (Medicare or Medicaid) or commercial (BCBS)
+Medicare: A federal health insurance program for senior citizen and permanently disabled people
+Medicaid: A joint and state program that helps low-income families and individuals pay for the cost associated with medical care
+CPT code: A current procedural terminology code is a medical code set to describe medical, surgical and diagnostic services
+HIPAA: It is a set of rules and regulations which doctors, hospitals, healthcare providers and health plan must follow in order to provide their services
+Healthcare Business Process
+Most health-care organization have adapted software program to process the smooth functioning of the system. This software system gives all the information in a single document for each entity dealing with this.
+Interconnecting this whole system to a single web application is a huge task and making it work effectively is even a bigger task. Rigorous testing of this health application is compulsory, and it has to go through various testing phases.
+
+In this tutorial, we will learn,
+
+Testing of Providers system
+Sample Test Scenarios and Test cases for providers (doctor/hospital) system:
+
+Sr#	Test Scenario	Test Cases
+1)	Access to providers system	
+Provider system should let us enter, edit and save the provider’s data
+2)	Positive flow System Testing	
+It includes scenarios to enter different types of provider, change providers details, save and inquire them
+3)	Negative flow System Testing	
+Allows to save provider information with incomplete data, contract’s effective date, entering details about existing providers in the system
+4)	System Integration Testing	
+Validate the feed to members system, finance system, claim system, and provider portal. Also, validate if the changes from provider portal are entered into the respective provider’s record
+5)	Positive flow providers portal testing	
+Login and view providers details, claim status, and member details
+Make change request to change the name, address, phone number, etc.
+6)	Negative flow providers portal testing	
+View the member details with an invalid ID
+Login with invalid credentials
+7)	Positive flow Broker portal testing	
+Login and view details about broker and commission payment
+Make a request to change the name, address, phone number, etc.
+8)	Negative flow Broker portal testing	
+It should include scenarios to log in with invalid credentials
+Healthcare device Testing
+Healthcare device Testing
+While health-care device software is not the direct concern of patient, they also require rigorous testing like another software testing. For example, X-ray machines that are controlled by software programs should be tested well because any testing error in software can lead to a serious effect on the patient.
+
+FDA (Food and Drug Administration) has guidelines for mobile and web applications for medical devices. While testing medical devices the proper functional Test Plan along with pass and fail criteria is also the part of FDA guidelines. When a test plan is executed, the results are collected and reported to FDA. This process ensures that the device meets the standard of the regulatory bodies.
+
+Useful tips for Healthcare Testing
+While testing software, you can consider some important tips for the testing healthcare system.
+
+Dates are important and need to be accurate
+While designing test cases consider various parameters like different types of plan, brokers, members, commission, etc.
+Complete knowledge of the domain is required.
